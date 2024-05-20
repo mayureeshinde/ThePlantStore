@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Peace Lily Plant",
+      "price": 100,
+      "quantity": 10,
+      "image" : "plant_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bamboo Palm Plant",
+      "price": 200,
+      "quantity": 0,
+      "image" : "plant_2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Monstera Deliciosa Plant",
+      "price": 300,
+      "quantity": 30,
+      "image" : "plant_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Jade Plant Mini",
+      "price": 400,
+      "quantity": 40,
+      "image" : "plant_4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Areca Palm Plant",
+        "price": 400,
+        "quantity": 40,
+        "image" :  "plant_5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Snake Plant - Golden Hahnii",
+        "price": 400,
+        "quantity": 40,
+        "image" :  "plant_6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Anthurium Red Plant",
+        "price": 400,
+        "quantity": 0,
+        "image" :  "plant_7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Aglaonema Pink Beauty Plant",
+        "price": 400,
+        "quantity": 40,
+        "image" :  "plant_8.jpg"
+      }
+  ]
+  

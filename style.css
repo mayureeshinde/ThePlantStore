@@ -1,0 +1,155 @@
+body {
+
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart-count {
+    background-color: #336a1d;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.cart-drawer {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 5px 5px 100px #000;
+    transition: right 0.3s ease;
+    z-index: 999;
+    padding: 20px;
+}
+
+.cart-drawer.open {
+    right: 0;
+}
+
+.cart-drawer button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.product button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#products-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    text-align: center;
+    justify-content: center;
+}
+
+#products-container>div {
+    margin: 2px;
+    border: 1px solid #e5e5e5;
+    padding: 0 0 15px 0;
+}
+
+button.add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 55%;
+    cursor: pointer;
+}
+
+#cart-icon {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    border: 1px solid #e5e5e5;
+    margin: 10px 0;
+}
+
+#products-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.cart-content img {
+    width: 90px;
+    margin: 10px 0;
+}
+
+.cart-drawer button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+
+.cart-info p {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 5px;
+}
+
+button.close {
+    position: absolute;
+    top: 3%;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+}
+
+button.add-to-cart-button:hover {
+    background: #32691d;
+    color: #fff;
+}
